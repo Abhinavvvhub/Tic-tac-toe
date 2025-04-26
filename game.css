@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(2, 141, 106, 0.687);
+}
+.heading{
+    text-transform: capitalize;
+    font-size: 55px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.game{
+    text-align: center;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    font-size: 55px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+.game-cont{
+    display: grid;
+    place-items: center;
+    border: none;
+}
+.button{
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    color: #000000;
+}
+.parawin{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="stylesheet" href="gameres.css">
+</head>
+
+<body>
+    <div class="game-info">
+        <p class="parawin" style="opacity: 0;" id="p"></p>
+        <p class="turnpara" id="turnpara"></p>
+    </div>
+    <!--game container-->
+    <div class="game-cont">
+        <!--heading-->
+        <h1 class="heading">welcome to tic tac toe</h1>
+        <div class="game"> <!--main container which contains game-->
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+        <button class="button" id="butn">New game</button> <!--reset button for game-->
+    </div>
+    <audio id="gamesound" src="game over sound.wav"></audio>
+    <audio id="turnalter" src="turn.wav"></audio>
+    <audio id="new" src="new game.wav"></audio>
+</body>
+<script src="game.js"></script>
+
+</html>
